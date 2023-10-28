@@ -1,6 +1,7 @@
 import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 //Code to import Budget.js
 import Budget from './components/Budget';
@@ -49,7 +50,7 @@ const App = () => {
                        
                         {
                             //ExpenseList component
-                            <div className='my-5'>
+                            <div className='my-3'>
                                 <h1>Allocation</h1>
                                 <ExpenseList />
                             </div>
